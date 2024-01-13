@@ -67,6 +67,7 @@ export const projectsData = [
       "Advanced Youtube App with live chat and infinite scroll feature for your viewing pleasure",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: AdvancedYoutubee,
+    sourceCode:"https://github.com/thisissuman/advanced-youtube"
   },
   {
     title: "FoodVila App",
@@ -74,6 +75,7 @@ export const projectsData = [
       "Food Villa App using React.js and Parcel Bundle",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: FoodVilla,
+    sourceCode:"https://github.com/thisissuman/KiraMovix"
   },
   {
     title: "Kira Movie",
@@ -81,6 +83,7 @@ export const projectsData = [
       "Explore movies with ease using my React Movie Browsing Project! 🎬 Discover, click, watch – simple and snappy! 🚀🌟",
     tags: ["React", "Redux", "IMDB API", "Tailwind", "Framer"],
     imageUrl: KiraMovie,
+    sourceCode:"https://github.com/thisissuman/KiraMovix"
   },
 ] as const;
 
