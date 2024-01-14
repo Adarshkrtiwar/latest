@@ -6,6 +6,7 @@ import ActiveSectionContextProvider from "@/context/active-session-context";
 import ThemeContextProvider from "@/context/theme-context";
 import Footer from "@/components/footer";
 import { Toaster } from "react-hot-toast";
+import ThemeSwitch from "@/components/theme-switch";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -31,6 +32,7 @@ export default function RootLayout({
             {children}
             <Footer/>
             <Toaster position="top-right"/>
+          <ThemeSwitch/>
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
