@@ -1,10 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns:[{
-            hostname:"media.licdn.com"
-        }]
-    }
-}
+  images: {
+    remotePatterns: [
+      {
+        hostname: "media.licdn.com",
+      },
+    ],
+  },
+  experimental: {
+    serverActions: true,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
