@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import StarsCanvas from "@/components/Stars";
+import StarsCanvas from "@/components/StarBackground";
 import Header from "@/components/header";
 import ActiveSectionContextProvider from "@/context/active-session-context";
 import ThemeContextProvider from "@/context/theme-context";
@@ -28,6 +28,7 @@ export default function RootLayout({
         <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
+          <StarsCanvas/>
             <Header />
             {children}
             <Footer/>
