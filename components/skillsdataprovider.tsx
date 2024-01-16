@@ -4,9 +4,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
-
+import { StaticImageData } from "next/image";
 interface Props {
-  src: any;
+  src: StaticImageData;
   width: number;
   height: number;
   index: number;
