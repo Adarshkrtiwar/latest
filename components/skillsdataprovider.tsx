@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 
 interface Props {
-  src: string;
+  src: any;
   width: number;
   height: number;
   index: number;
