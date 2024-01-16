@@ -19,32 +19,32 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
 
-      <p className="mb-3">
+      <p className="mb-3 text-gray-950 dark:text-cyan-200">
         {" "}
         After teaching myself{" "}
-        <span className="font-medium">web development</span>, I started working
-        as a <span className="font-medium">web developer</span> two years ago. I
+        <span className="font-medium highlight">web development</span>, I started working
+        as a <span className="font-medium highlight">web developer</span> two years ago. I
         love web development, as it gives me the opportunity to express my{" "}
-        <span className="italic">creativity</span> and solve{" "}
-        <span className="underline">real-world problems</span>. My core stack is{" "}
-        <span className="font-medium">
-          HTML, CSS, JavaScript, and Bootstrap
+        <span className="italic highlight">creativity</span> and solve{" "}
+        <span className="underline highlight">real-world problems</span>. My core stack is{" "}
+        <span className="font-medium highlight">
+          JavaScript, React, Next JS, MySQL, UNIX
         </span>
-        . I am also familiar with jQuery and WordPress. I am always eager to
+        . I am also familiar with Typescript,Tailwind CSS. I am always eager to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a web
+        <span className="font-medium highlight">full-time position</span> as a web
         developer.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy reading
-        books, listening to music, and playing chess. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
+      <p className="text-gray-950 dark:text-cyan-200">
+        <span className="italic highlight">When I'm not coding</span>, I enjoy playing games,
+        watching movies, and new AI tool research. I also enjoy{" "}
+        <span className="font-medium highlight">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">
+        <span className="font-medium highlight">
           artificial intelligence and machine learning
         </span>
-        . I'm also learning how to play the piano.
+        . I'm also learning how to 10x my productivity using AI.
       </p>
     </motion.section>
   );

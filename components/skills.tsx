@@ -5,6 +5,8 @@ import SectionHeading from "./section-heading";
 import { skillsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import { Frontend_skill,Backend_skill } from "@/lib/data";
+import SkillDataProvider from "./skillsdataprovider";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -31,7 +33,7 @@ export default function Skills() {
     >
       <SectionHeading>My skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {skillsData.map((skill, index) => (
+        {/* {skillsData.map((skill, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
@@ -44,6 +46,48 @@ export default function Skills() {
             custom={index}
           >
             {skill}
+          </motion.li>
+        ))} */}
+        {Frontend_skill.map((image, index) => (
+          <motion.li
+            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 object-fill"
+            key={index}
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={index}
+          >
+            <SkillDataProvider
+              key={index}
+              src={image.Image}
+              width={image.width}
+              height={image.height}
+              index={index}
+            />
+          </motion.li>
+        ))}
+        {Backend_skill.map((image, index) => (
+          <motion.li
+            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 object-fill"
+            key={index}
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={index}
+          >
+            <SkillDataProvider
+              key={index}
+              src={image.Image}
+              width={image.width}
+              height={image.height}
+              index={index}
+            />
           </motion.li>
         ))}
       </ul>

@@ -5,6 +5,23 @@ import { LuGraduationCap } from "react-icons/lu";
 import FoodVilla from "@/public/FoodVilla.png";
 import AdvancedYoutubee from "@/public/AdvancedYoutubee.png";
 import KiraMovie from "@/public/KiraMovie.png";
+import html from '@/public/html.png';
+import express from '@/public/express.png';
+import firebase from '@/public/Firebase.png';
+import framer from '@/public/framer.png';
+import github from '@/public/github.png';
+import figma from '@/public/figma.png';
+import node from '@/public/node-js.png';
+import oracle from '@/public/oracle.svg';
+import mysql from '@/public/mysql.png';
+import react from '@/public/react.png';
+import mui from '@/public/mui.png';
+import next from '@/public/next.png';
+import tailwind from '@/public/tailwind.png';
+import ts from '@/public/ts.png';
+import js from '@/public/js.png';
+import redux from '@/public/redux.png';
+import reactquery from '@/public/reactquery.png';
 
 export const links = [
   {
@@ -111,3 +128,108 @@ export const skillsData = [
   "Django",
   "Framer Motion",
 ] as const;
+
+
+export const Frontend_skill = [
+  {
+    skill_name: "Html 5",
+    Image: html,
+    width: 40,
+    height: 40,
+  },
+  
+   {
+    skill_name: "Java Script",
+    Image: js,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: tailwind,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Material UI",
+    Image: mui,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "React",
+    Image: react,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Redux",
+    Image: redux,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "React Query",
+    Image: reactquery,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Type Script",
+    Image: ts,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Next js 13",
+    Image: next,
+    width: 40,
+    height: 40,
+  }, 
+];
+
+ export const Backend_skill = [
+  {
+    skill_name: "Node js",
+    Image: node,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Express js",
+    Image: express,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Oracle",
+    Image: oracle,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Fire base",
+    Image: firebase,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "My SQL",
+    Image: mysql,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Github",
+    Image: github,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Figma",
+    Image: figma,
+    width: 40,
+    height: 40,
+  },
+
+];
