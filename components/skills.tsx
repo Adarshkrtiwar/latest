@@ -62,7 +62,7 @@ export default function Skills() {
           >
             <SkillDataProvider
               key={index}
-              src={image.Image}
+              src={String(image.Image)}
               width={image.width}
               height={image.height}
               index={index}
