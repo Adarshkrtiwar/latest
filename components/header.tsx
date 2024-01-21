@@ -8,7 +8,7 @@ import clsx from "clsx";
 
 import { useActiveSectionContext } from "@/context/active-session-context";
 
-export default function Header() {
+export default function  Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
 
