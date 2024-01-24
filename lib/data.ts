@@ -85,7 +85,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: AdvancedYoutubee,
     sourceCode:"https://github.com/thisissuman/advanced-youtube",
-    liveDemo:"https://a-new-modern-website.vercel.app/"
+    liveDemo:"https://advanced-youtube-theta.vercel.app/"
   },
   {
     title: "FoodVila App",
