@@ -94,7 +94,7 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: FoodVilla,
     sourceCode:"https://github.com/thisissuman/KiraMovix",
-    liveDemo:"https://ai-image-generator-fse1.vercel.app/ "
+    liveDemo:"https://food-hub-rose.vercel.app/"
   },
   {
     title: "Kira Movie",
