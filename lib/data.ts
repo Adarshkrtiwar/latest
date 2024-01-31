@@ -88,12 +88,12 @@ export const projectsData = [
     liveDemo:"https://advanced-youtube-theta.vercel.app/"
   },
   {
-    title: "FoodVila App",
+    title: "FoodHub App",
     description:
-      "Food Villa App using React.js and Parcel Bundle",
+      "Food Hub App using React.js and Parcel Bundle",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: FoodVilla,
-    sourceCode:"https://github.com/thisissuman/KiraMovix",
+    sourceCode:"https://github.com/thisissuman/food-hub",
     liveDemo:"https://food-hub-rose.vercel.app/"
   },
   {
