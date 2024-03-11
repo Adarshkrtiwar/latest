@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/D4D03AQEpgFDQrk43CA/profile-displayphoto-shrink_800_800/0/1702222499611?e=1709769600&v=beta&t=BJntRd3vxhmFFdvXg5g00vfBUhpz9OyhNnycpfjfr4M"
+              src="https://media.licdn.com/dms/image/D4D03AQEpgFDQrk43CA/profile-displayphoto-shrink_400_400/0/1702222499611?e=1715817600&v=beta&t=ovbKsOYAagMIunJnotzXkVnX9XC904r9bimLLOjesto"
               alt="Suman portrait"
               width="192"
               height="192"
