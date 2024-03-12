@@ -64,7 +64,7 @@ export default function Intro() {
       >
         Hello,<span className="font-black text-gradient "> I'm Suman.</span> I'm a{" "}
         <span className="font-bold highlight">Frontend developer</span> with{" "}
-        <span className="font-bold highlight">2 years</span> of experience. I enjoy
+        <span className="font-bold highlight">2.5 years</span> of experience. I enjoy
         building <span className="italic highlight">sites & apps</span>. My focus is{" "}
         <span className="text-gradient">React (Next.js)</span>.
       </motion.h1>
