@@ -68,12 +68,12 @@ export const experiencesData = [
     date: "2019 - 2021",
   },
   {
-    title: "Senior Software Developer",
+    title: "Frontend Developer",
     location: "CustomerXps Software",
     description:
-      "I'm now a Senior Software Developer working in CustomerXps. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a Senior Frontend Developer working in CustomerXps. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2021 - present",
   },
 ] as const;
 
