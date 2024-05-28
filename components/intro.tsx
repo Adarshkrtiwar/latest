@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-session-context";
+import picofme from '../public/picofme.png'
 
 export default function Intro() {
    const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/D4D03AQEpgFDQrk43CA/profile-displayphoto-shrink_400_400/0/1702222499611?e=1715817600&v=beta&t=ovbKsOYAagMIunJnotzXkVnX9XC904r9bimLLOjesto"
+              src={picofme}
               alt="Suman portrait"
               width="192"
               height="192"
@@ -64,7 +65,7 @@ export default function Intro() {
       >
         Hello,<span className="font-black text-gradient "> I'm Suman.</span> I'm a{" "}
         <span className="font-bold highlight">Frontend developer</span> with{" "}
-        <span className="font-bold highlight">3 years</span> of experience. I enjoy
+        <span className="font-bold highlight">3.2 years</span> of experience. I enjoy
         building <span className="italic highlight">sites & apps</span>. My focus is{" "}
         <span className="text-gradient">React (Next.js)</span>.
       </motion.h1>
