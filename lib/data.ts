@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "Project Enginner",
     location: "CustomerXps Software",
     description:
-      "I worked as a Project Engineer for 3 years here. I also upskilled to the Frontend Devlopment.",
+      "I worked as a Project Engineer for 2 years here. I also upskilled to the Frontend Devlopment.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
