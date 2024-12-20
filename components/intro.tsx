@@ -65,10 +65,10 @@ export default function Intro() {
       >
         Hello,<span className="font-black text-gradient "> I'm Suman.</span> I'm a{" "}
         <span className="font-bold highlight">Software developer</span> with{" "}
-        <span className="font-bold highlight">5 YOE</span> in IT industry including <span className="font-bold highlight">3.4 Years</span> of relevent expiernce in
+        <span className="font-bold highlight">5.7 YOE</span> in IT industry including <span className="font-bold highlight">4 Years</span> of relevent expiernce in
         Frontend Development, I enjoy
         building <span className="italic highlight">sites & apps</span>. My focus is{" "}
-        <span className="text-gradient">Javascript, React, Next.js</span>.
+        <span className="text-gradient">Javascript, React, Node.JS, Next.js</span>.
       </motion.h1>
 
       <motion.div

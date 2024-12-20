@@ -23,12 +23,12 @@ export default function About() {
         {" "}
         After teaching myself{" "}
         <span className="font-medium highlight">web development</span>, I started working
-        as a <span className="font-medium highlight">web developer</span> Three years ago. I
+        as a <span className="font-medium highlight">web developer</span> Four years ago. I
         love web development, as it gives me the opportunity to express my{" "}
         <span className="italic highlight">creativity</span> and solve{" "}
         <span className="underline highlight">real-world problems</span>. My core stack is{" "}
         <span className="font-medium highlight">
-          JavaScript, React, Next JS, MySQL, UNIX
+          JavaScript, React, Node, Next JS, MySQL, UNIX
         </span>
         . I am also familiar with Typescript,Tailwind CSS. I am always eager to
         learn new technologies. I am currently looking for a{" "}
