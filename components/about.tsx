@@ -23,7 +23,7 @@ export default function About() {
         {" "}
         After teaching myself{" "}
         <span className="font-medium highlight">web development</span>, I started working
-        as a <span className="font-medium highlight">web developer</span> Four years ago. I
+        as a <span className="font-medium highlight">web developer</span>  1.5 years ago. I
         love web development, as it gives me the opportunity to express my{" "}
         <span className="italic highlight">creativity</span> and solve{" "}
         <span className="underline highlight">real-world problems</span>. My core stack is{" "}
