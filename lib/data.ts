@@ -52,37 +52,45 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "B.tech Graduated",
-    location: "RIT Berhampur",
+    title: "B.Tech Graduate",
+    location: "Assam University, Silchar, Assam 788011",
     description:
-      "I graduated from RIT Berhampur. I immediately found a job as a Project Engineer.",
+      "Completed B.Tech with a strong foundation in CS fundamentals. Focused heavily on frontend and ML during this period.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019 - 2023",
   },
   {
-    title: "Project Enginner",
-    location: "CustomerXps Software",
+    title: "Machine Learning Intern",
+    location: "Technex, IIT BHU (Remote)",
     description:
-      "I worked as a Project Engineer for 2 years here. I also upskilled to the Frontend Devlopment.",
+      "Built a real estate price prediction model using Linear Regression and GridSearchCV. Achieved 0.818 accuracy.",
+    
+    date: "June 2022 – July 2022",
+  },
+  {
+    title: "Web Development Trainee",
+    location: "NIELIT (Remote)",
+    description:
+      "Built a responsive music player using HTML, CSS, and JS. Learned core frontend basics and DOM handling.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "May 2021 – June 2021",
   },
   {
-    title: "Frontend Developer",
-    location: "CustomerXps Software",
+    title: "Software Development Intern",
+    location: "Doodhvale Farms Pvt. Ltd. (Remote)",
     description:
-      "I worked as Senior Frontend Developer in CustomerXps. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB.",
+      "Worked on internal dashboards using React and Tailwind. Gained hands-on experience in Git, reusable components, and sprint planning.",
     icon: React.createElement(FaReact),
-    date: "2021 - 2024",
+    date: "March 2024 – May 2024",
   },
   {
-    title: "Senior UI Developer",
-    location: "TCS",
+    title: "Associate Software Developer",
+    location: "Doodhvale Farms Pvt. Ltd., New Delhi",
     description:
-      "I'm now a Senior UI Developer working at TCS. My primary skills include React, Node, MongoDB, and Remix. I'm open to full-time opportunities.",
+      "Built 15+ production apps using React, Next.js, and Tailwind. Handled APIs, state with Redux Toolkit, and deployed via Vercel.",
     icon: React.createElement(FaReact),
-    date: "2024 - present",
-},
+    date: "May 2024 – Present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -92,8 +100,8 @@ export const projectsData = [
       "Advanced Youtube App with live chat and infinite scroll feature for your viewing pleasure",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: AdvancedYoutubee,
-    sourceCode:"https://github.com/thisissuman/advanced-youtube",
-    liveDemo:"https://advanced-youtube-theta.vercel.app/"
+    sourceCode:"https://github.com/Adarshkrtiwar/you_tube.git",
+    liveDemo:"https://github.com/Adarshkrtiwar"
   },
   {
     title: "FoodHub App",
@@ -101,8 +109,8 @@ export const projectsData = [
       "Food Hub App using React.js and Parcel Bundle",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: FoodVilla,
-    sourceCode:"https://github.com/thisissuman/food-hub",
-    liveDemo:"https://food-hub-rose.vercel.app/"
+    sourceCode:"https://github.com/Adarshkrtiwar",
+    liveDemo:"https://github.com/Adarshkrtiwar"
   },
   {
     title: "Kira Movie",
@@ -110,8 +118,8 @@ export const projectsData = [
       "Explore movies with ease using my React Movie Browsing Project! 🎬 Discover, click, watch – simple and snappy! 🚀🌟",
     tags: ["React", "Redux", "IMDB API", "Tailwind", "Framer"],
     imageUrl: KiraMovie,
-    sourceCode:"https://github.com/thisissuman/KiraMovix",
-    liveDemo:"https://kira-movix.vercel.app/"
+    sourceCode:"https://github.com/Adarshkrtiwar",
+    liveDemo:"https://github.com/Adarshkrtiwar"
   },
 ] as const;
 
